@@ -1,0 +1,31 @@
+{
+  "name": "famos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3333 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "gmap-vue": "^1.4.0",
+    "nuxt": "^2.14.0",
+    "vue-playlist": "^1.1.6",
+    "vue-videobg": "^2.0.0",
+    "vue2-google-maps": "^0.10.7",
+    "vuetify-media-player": "^0.8.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.5.0",
+    "eslint-plugin-nuxt": "^1.0.0"
+  }
+}
