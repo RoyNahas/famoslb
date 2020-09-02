@@ -5,62 +5,61 @@
         <v-col cols="12">
           <v-row no-gutters>
             <v-col cols="12" class="d-flex justify-center">
-              <p><strong>Contact Us-Ste Khalife FAMOS S.A.R.L.</strong></p>
+              <p><strong>Ste Khalife FAMOS S.A.R.L.</strong></p>
             </v-col>
           </v-row>
-          <v-row>
-            <v-col cols="auto" xs="12" sm="12" md="6" class="d-flex justify-end">
+          <v-row class="d-flex">
+            <v-col
+              cols="auto"
+              xs="12"
+              sm="12"
+              md="6"
+            >
               <v-card
-                max-width="400"
-                max-height="500"
-                shaped
                 elevation="5"
+                class="d-flex"
+                height="200"
+                max-height="200"
               >
-                <v-card-title class="justify-center">
-                  First Branch
-                </v-card-title>
-                <v-card-text>
-                  Maameltein, Naaman Street, Naaman Center.
-                  <v-divider />
-                  <v-icon>mdi-phone</v-icon>Tel: +961 9 642 838
-                  <v-divider />
-                  <v-icon>mdi-fax</v-icon>Fax:  - +961 9 637 725
-                </v-card-text>
+                <v-container>
+                  <v-card-title>
+                    Branch 1
+                  </v-card-title>
+                  <v-card-text>
+                    Maameltein, Naaman Street, Naaman Center.
+                    <v-divider />
+                    <v-icon>mdi-phone</v-icon>Tel: +961 9 642 838
+                    <v-divider />
+                    <v-icon>mdi-fax</v-icon>Fax:  - +961 9 637 725
+                  </v-card-text>
+                </v-container>
               </v-card>
             </v-col>
-            <v-col cols="auto" xs="12" sm="12" md="6" class="d-flex justify-start">
+            <v-col cols="auto" xs="12" sm="12" md="6">
               <v-card
-                max-width="400"
-                max-height="500"
-                shaped
+                class="d-flex"
                 elevation="5"
+                height="200"
+                max-height="200"
               >
-                <v-card-title
-                  class="justify-center"
-                >
-                  Second Branch
-                </v-card-title>
-                <v-card-text>
-                  Antelias, Antelias Rd, facing Total Gaz Station, next to Pharmacy Abou Habib.
-                  <v-divider />
-                  <v-icon>mdi-phone</v-icon>Tel: ++961 4 521 985
-                  <v-divider />
-                  <v-icon>mdi-fax</v-icon>Fax:  - ++961 4 521 985
-                  <v-divider />
-                  <v-icon>mdi-email</v-icon>nakhalife@hotmail.com
-                </v-card-text>
+                <v-container>
+                  <v-card-title>Branch 2</v-card-title>
+                  <v-card-text>
+                    Antelias, Antelias Rd, facing Total Gaz Station, next to Pharmacy Abou Habib.
+                    <v-divider />
+                    <v-icon>mdi-phone</v-icon>Tel: ++961 4 521 985
+                    <v-divider />
+                    <v-icon>mdi-fax</v-icon>Fax:  - ++961 4 521 985
+                    <v-divider />
+                    <v-icon>mdi-email</v-icon>nakhalife@hotmail.com
+                  </v-card-text>
+                </v-container>
               </v-card>
             </v-col>
           </v-row>
-          <!-- <v-col cols="12" class="d-flex justify-center d-none-xs">
-              <v-img contain src="/rosieres-Logo.gif" max-width="150" max-height="150" />
-              <v-img contain src="/famos-logo.jpg" max-width="150" max-height="150" />
-              <v-img contain src="/elleci-logo.gif" max-width="150" max-height="150" />
-              <v-img contain src="/foster-logo.gif" max-width="150" max-height="150" />
-            </v-col> -->
           <v-row>
             <v-col col="12">
-              <v-card elevation="10" shaped>
+              <v-card elevation="10">
                 <v-card-title class="justify-center">
                   Email Us
                 </v-card-title>
@@ -107,7 +106,7 @@
               <div class="container1">
                 <GmapMap
                   :center="{lat:34.000407, lng:35.646392}"
-                  :zoom="17"
+                  :zoom="12"
                   map-type-id="roadmap"
                   class="responsive-iframe"
                 >
@@ -133,8 +132,8 @@ export default {
   data: () => ({
     markers: [{
       position: {
-        lat: 34.000407,
-        lng: 35.646392
+        lat: 33.912665,
+        lng: 35.585088
       }
     }, {
       position: {

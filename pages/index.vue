@@ -15,12 +15,19 @@
               <strong>Ste. Khalife FAMOS S.A.R.L.</strong>
             </h1>
             <v-spacer />
-            <h4 class="subheading font-weight-thin">
+            <h4>
               Trading since 1993, Societe Khalife Famos SARL serves the Lebanese market by providing customers with leading
               brands for kitchen appliances and accessories for both free-standing as well fitted or built-in use.
+            </h4>
+            <h4>
               As agents for Rosieres and Candy built-in appliances, we collaborate with suppliers of kitchen furniture to ensure best fit for your kitchen design.
+            </h4>
+            <h4>
               Our showroom displays a wide range of French Rosieres and Italian Candy kitchen and laundry appliances. We display a wide range of Italian kitchen accessories including Foster inox sinks,
-              Elleci resin sinks, AR & ES sink mixers. We also display a wide range of Italian kitchen chairs.
+              Elleci resin sinks, AR & ES sink mixers.
+            </h4>
+            <h4>
+              We also display a wide range of Italian kitchen chairs.
             </h4>
           </v-col>
         </v-row>
