@@ -4,7 +4,7 @@
       <v-row>
         <v-col cols="12">
           <v-row>
-            <v-col cols="12" sm="12" xs="12" md="2">
+            <v-col cols="12" sm="12" xs="12" md="3">
               <v-card>
                 <v-list shaped>
                   <v-list-item>
@@ -75,7 +75,7 @@
                 </v-list>
               </v-card>
             </v-col>
-            <v-col cols="12" sm="12" xs="12" md="10" class="d-flex">
+            <v-col cols="12" sm="12" xs="12" md="9" class="d-flex">
               <v-row>
                 <v-col
                   v-for="product in Filterproduct"
@@ -83,7 +83,7 @@
                   cols="12"
                   xs="12"
                   sm="12"
-                  md="3"
+                  md="4"
                 >
                   <v-card
                     class="pa-10 mx-auto"
@@ -91,6 +91,7 @@
                     <v-img
                       class="white--text align-end"
                       height="200px"
+                      width="200px"
                       :src="product.image"
                     >
                       <v-card-title>{{ product.name }}</v-card-title>
