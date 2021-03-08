@@ -1,0 +1,37 @@
+[
+  {
+    "name": "aboutus",
+    "path": "/aboutus",
+    "component": "C:\\\\Users\\\\roy.nahas\\\\Documents\\\\GitHub\\\\famos\\\\pages\\\\aboutus.vue",
+    "chunkName": "pages/aboutus",
+    "_name": "_4461fff4"
+  },
+  {
+    "name": "contactus",
+    "path": "/contactus",
+    "component": "C:\\\\Users\\\\roy.nahas\\\\Documents\\\\GitHub\\\\famos\\\\pages\\\\contactus.vue",
+    "chunkName": "pages/contactus",
+    "_name": "_6acc63f2"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "C:\\\\Users\\\\roy.nahas\\\\Documents\\\\GitHub\\\\famos\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_5cdc6063"
+  },
+  {
+    "name": "Products",
+    "path": "/Products",
+    "component": "C:\\\\Users\\\\roy.nahas\\\\Documents\\\\GitHub\\\\famos\\\\pages\\\\Products.vue",
+    "chunkName": "pages/Products",
+    "_name": "_2039676a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\roy.nahas\\\\Documents\\\\GitHub\\\\famos\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_15cea29b"
+  }
+]

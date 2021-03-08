@@ -1,0 +1,32 @@
+{
+  "Carousel": {
+    "description": "Auto imported from components/carousel.vue"
+  },
+  "LazyCarousel": {
+    "description": "Auto imported from components/carousel.vue"
+  },
+  "Famoslogo": {
+    "description": "Auto imported from components/famoslogo.vue"
+  },
+  "LazyFamoslogo": {
+    "description": "Auto imported from components/famoslogo.vue"
+  },
+  "FooterFamos": {
+    "description": "Auto imported from components/footerFamos.vue"
+  },
+  "LazyFooterFamos": {
+    "description": "Auto imported from components/footerFamos.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "LazyVuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  }
+}
