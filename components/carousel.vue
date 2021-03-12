@@ -92,8 +92,8 @@ export default {
       collections: [
         {
           id: 1,
-          name: 'Rosieres Esprit chef',
-          text: 'Et si on révolutionnait notre façon de cuisiner à la maison ? Le nouveau four fonction vapeur combine vapeur et chaleur traditionnelle pour obtenir des plats biens dorés et très moelleux à l’intérieur 🥧 👨‍🍳',
+          name: 'Rosieres Esprit Chef',
+          text: 'Et si on révolutionnait notre façon de cuisiner à la maison ? le nouveau four fonction vapeur combine vapeur et chaleur traditionnelle pour obtenir des plats biens dorés et très moelleux à l’intérieur 🥧 👨‍🍳',
           images: [
             { name: 'img1', source: '/lespritchef1.jpg' },
             { name: 'img2', source: '/lespritchef2.jpg' },
@@ -103,8 +103,8 @@ export default {
         },
         {
           id: 2,
-          name: 'Rosieres sublime',
-          text: 'NÉ DE LA COLLABORATION ENTRE LES INGÉNIEURS DU GROUPE ROSIÈRES ET LES MEILLEURES ÉCOLES DE CUISINE FRANÇAISES, LE FOUR SUBLIME EST UN CONCENTRÉ DE TECHNOLOGIE AVANT-GARDISTE.',
+          name: 'Rosieres Sublime',
+          text: 'Né de la collaboration entre les ingénieurs du groupe rosières et les meilleures écoles de cuisine françaises, le four sublime est un concentré de technologie avant-gardiste.',
           images: [
             { name: 'img5', source: '/sublime1.jpg' },
             { name: 'img6', source: '/sublime2.jpg' },
@@ -116,7 +116,7 @@ export default {
         {
           id: 3,
           name: 'Rosieres Origine',
-          text: 'NÉ DE LA COLLABORATION ENTRE LES INGÉNIEURS DU GROUPE ROSIÈRES ET LES MEILLEURES ÉCOLES DE CUISINE FRANÇAISES,LE FOUR ORIGINE EST UN CONCENTRÉ DE TECHNOLOGIE AVANT-GARDISTE.',
+          text: 'Né de la collaboration entre les ingénieurs du groupe rosières et les meilleures écoles de cuisine françaises,le four origine est un concentré de technologie avant-gardiste.',
           images: [
             { name: 'img10', source: '/origine1.jpg' },
             { name: 'img11', source: '/origine2.jpg' },

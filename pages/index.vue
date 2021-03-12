@@ -74,9 +74,9 @@ export default {
     }
   },
   watch: {
-    showText (value) {
-      console.log(value)
-    }
+    // showText (value) {
+    //   console.log(value)
+    // }
   }
 }
 </script>
