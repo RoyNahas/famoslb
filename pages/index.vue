@@ -1,5 +1,4 @@
 <template>
-  <!--column justify-center align-center -->
   <v-layout>
     <v-flex>
       <v-parallax
@@ -10,7 +9,7 @@
           align="center"
           no-gutters
         >
-          <v-col class="text-center" cols="12">
+          <v-col v-if="showText" class="text-center" cols="12">
             <h1>
               <strong>Ste. Khalife FAMOS S.A.R.L.</strong>
             </h1>
@@ -29,6 +28,11 @@
             <h4>
               We also display a wide range of Italian kitchen chairs.
             </h4>
+          </v-col>
+          <v-col v-else>
+            <h2>
+              <strong>Ste. Khalife FAMOS S.A.R.L.</strong>
+            </h2>
           </v-col>
         </v-row>
       </v-parallax>
@@ -55,6 +59,23 @@
 export default {
   data () {
     return {
+    }
+  },
+  computed: {
+    showText () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return false
+        case 'sm': return false
+        case 'md': return true
+        case 'lg': return true
+        case 'xl': return true
+        default: return false
+      }
+    }
+  },
+  watch: {
+    showText (value) {
+      console.log(value)
     }
   }
 }
