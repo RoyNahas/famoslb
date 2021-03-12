@@ -15,7 +15,7 @@
           >
             <v-col cols="12" xs="12" sm="12" md="6">
               <v-carousel
-                v-if="!checkeven(collection.id)"
+                v-if="!checkeven(collection.id) || mobilee"
                 cycle
                 hide-delimiter-background
                 show-arrows-on-hover
@@ -29,7 +29,7 @@
                 />
               </v-carousel>
               <v-card
-                v-if="checkeven(collection.id)"
+                v-if="checkeven(collection.id) || mobilee"
                 class="d-flex align-center justify-center"
                 outlined
                 tile
@@ -48,7 +48,7 @@
             </v-col>
             <v-col cols="12" xs="12" sm="12" md="6">
               <v-carousel
-                v-if="checkeven(collection.id)"
+                v-if="checkeven(collection.id) && !mobilee"
                 cycle
                 hide-delimiter-background
                 show-arrows-on-hover
@@ -62,7 +62,7 @@
                 />
               </v-carousel>
               <v-card
-                v-if="!checkeven(collection.id)"
+                v-if="!checkeven(collection.id) && !mobilee"
                 class="d-flex align-center justify-center"
                 outlined
                 tile
@@ -124,6 +124,18 @@ export default {
           ]
         }
       ]
+    }
+  },
+  computed: {
+    mobilee () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return true
+        case 'sm': return true
+        case 'md': return false
+        case 'lg': return false
+        case 'xl': return false
+        default: return false
+      }
     }
   },
   methods: {
